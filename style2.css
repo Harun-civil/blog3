@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.base{
+    background: url(ap2.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.base .bar{
+    width: 100%;
+    height: 80px;
+    background: rgba(70, 69, 69, 0.596);
+    border-radius: 50px;
+}
+.base .bar ul{
+    text-align: center;
+    margin-right: 15px;
+    margin-top: -45px;
+    user-select: none;
+
+}
+.base .bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 25px
+
+}
+.base .bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:6px 13px;
+    color: rgb(255, 255, 255);
+}
+.base .bar ul li a:hover{
+    background: rgb(92, 1, 92);
+    border-radius: 10px;
+    transition: .5s;
+
+
+}
+
+.base .bar .logo2{
+    float: right;
+    margin-top: 5px;
+    user-select: none;
+}
+
+.base .logo{
+    user-select: none;
+}
+.base .fa{
+    margin-right: 8px;
+}
+.base .fa-solid{
+    margin-right: 8px;
+}
+.a1{
+    display: none;
+}
+
+.base ul li:hover .a1{
+    display: block;
+    position: absolute;
+    background: rgba(70, 69, 69, 0.596);
+    margin-top: 50px;
+    margin-left: -35px;
+    font-size: 3px;
+    font-family: sans-serif;
+}
+.base ul li:hover .a1 ul{
+    display: block;
+
+}
+.base ul li:hover .a1 ul li {
+    width: 450px;
+    padding: 10px;
+    text-align: left;
+    background: rgba(70, 69, 69, 0.596);;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.base .sosyal{
+    margin-top: 480px;
+    position: absolute;
+    margin-left: 1250px;
+}
+.base .sosyal a{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    color: white;
+    margin:0 6px ;
+    border-radius: 50%;
+    background: rgba(70, 69, 69, 0.596);
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none ;
+}
+
+.base .sosyal a:hover{
+    background: rgb(92, 1, 92);
+}
+.base .sosyal a i{
+    transition: 0.5sn all;
+}
+.base .sosyal a:hover>i{
+    transform: scale(1.6);
+}
+.yaz1{
+    width: 900px;
+    margin:auto;
+    }
+    .saga-kaydir{
+    float:right;
+    padding:0 0 10px 10px;
+    }
+     
+    .sola-kaydir{
+    float:left;
+    padding:0 10px 10px 0;
+    }
+    .yaz1{
+        background: rgba(70, 69, 69, 0.596);
+        color: white;
+        margin-top: 50px;
+        font-family: sans-serif;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+    .base .mail a{
+        display: inline-flex;
+        width: 70px;
+        height: 70px;
+        color: white;
+        margin:0 6px ;
+        border-radius: 50%;
+        background: rgba(70, 69, 69, 0.596);
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none ;
+    }
+    
+    .base .mail a:hover{
+        background: rgb(92, 1, 92);
+    }
+    .base .mail a i{
+        transition: 0.5sn all;
+    }
+    .base .mail a:hover>i{
+        transform: scale(1.6);
+    }
+    .base .mail{
+        margin-top: 400px;
+        position: absolute;
+        margin-left: 1250px;
+    }
